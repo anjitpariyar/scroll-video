@@ -27,7 +27,7 @@ window.addEventListener('scroll', function(e) {
 		// console.log('hurrey');
 		addPageY=pageY+400;
 		i=addPageY-top;
-		i=i*0.09;
+		i=i*0.03;
 		setTimeout(function(){
 			akuvideo.currentTime=i;
 			akuvideo.pause();
